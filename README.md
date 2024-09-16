@@ -70,7 +70,7 @@ docker exec -it bitcoind /bin/bash
 **3- Create new wallet:**
 ```
 bitcoin-cli -testnet4 -rpcuser=demo -rpcpassword=demo -rpcport=5000 createwallet test
-bitcoin-cli -testnet4 -rpcuser=demo -rpcpassword=demo -rpcport=5000 loadwallet test
+
 bitcoin-cli -testnet4 -rpcuser=demo -rpcpassword=demo -rpcport=5000 getnewaddress
 ```
 
