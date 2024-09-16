@@ -53,6 +53,14 @@ You can continue without changing your default config in `docker-compose.yml` bu
 ```
 docker compose up -d
 ```
+### If run docker compose up -d error, now you can check some cmd below
+```
+sudo systemctl status docker
+sudo systemctl start docker
+sudo systemctl restart docker
+sudo usermod -aG docker $USER
+sudo docker compose up -d
+```
 
 **2- Enter container:**
 ```
