@@ -120,6 +120,7 @@ cat ./identity/principal.json
 cat ./identity/private_key.pem
 ```
 * Or just save the `./identity/private_key.pem` file in your local system
+* When you update in step 8. You will have identity.json
 ```console
 cat ./identity/identity.json
 ```
