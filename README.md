@@ -121,6 +121,10 @@ cat ./identity/private_key.pem
 ```
 * Or just save the `./identity/private_key.pem` file in your local system
 
+![image](https://github.com/user-attachments/assets/5a515d85-647d-4c6b-8e37-be8738687c03)
+
+* bitcoin_wif_key is private key 
+
 ## Usefull Commands:
 Return to screen
 ```
