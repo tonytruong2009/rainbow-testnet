@@ -157,6 +157,13 @@ cd rbo_indexer_testnet && chmod +x rbo_worker
 
 ./rbo_worker worker --rpc http://127.0.0.1:5000 --password demo --username demo --start_height 42000
 ```
+# If your node stop, you can check and restart again
+```console
+cd rbo_indexer_testnet
+docker ps -a
+docker start <ID container>
+./rbo_worker worker --rpc http://127.0.0.1:5000 --password demo --username demo --start_height 42000
+```
 
 ## ERROR:
 if you get into you just need to rerun your indexer using step 5.3 and with the latest height of your bitcoin core node ( just check its logs using `docker ps -a` & `docker logs -f CONTAINER_ID` )
